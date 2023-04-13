@@ -47,6 +47,8 @@ if (isset($_SESSION['sflag'])) {
                     <option value="9005">9005</option>
                     <option value="9007">9007</option>
                     <option value="9008">9008</option>
+                    <option value="9027">9027</option>
+                    <option value="9028">9028</option>
                 </select>
                 <br>
                 <input class="w3-button w3-half fnegro" type="submit" value="Ingresar">
