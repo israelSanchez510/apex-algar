@@ -2,7 +2,7 @@
 /* CSS Document */
 html, body {
     margin: 0px;
-    height: 100%;
+    /* height: 100%; */
     font-family: poppins, Arial, sans-serif;
     text-align: justify;
     color: #222222;
@@ -420,8 +420,11 @@ button, .w3-btn {
 }
 
 .fblanco {
+    margin-top: 70px;
     background-color: #fff;
-    color: #000
+    color: #000;
+    width: 400px;
+    height:530px;
 }
 
 .fnegro{

@@ -44,17 +44,23 @@ $mysqli = conn();
     <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i
                 class="fa fa-bars"></i>  Menu
     </button>
-    <span class="w3-bar-item w3-right">Logo</span>
+    <!--<span class="w3-bar-item w3-right">Logo</span>-->
+    <a href="cerrar.php" class="w3-bar-item w3-button w3-padding" style="float:right">Cerrar Sesión </a>
+
 </div>
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;" id="mySidebar"><br>
     <div class="w3-container w3-row">
-        <div class="w3-col s4">
-            <img src="images/avatar.jpg" class="w3-circle w3-margin-right" style="width:46px">
+        <div class="w3-col ">
+            <img src="images/apex-logo.png" class="w3-margin-right" style="width:180px">
+            <img src="images/logoAlgar_.png" class="" style="width: 50px;float: right;">
+
         </div>
-        <div class="w3-col s8 w3-bar">
-            <span>Welcome, <strong><?php echo $_SESSION['USUARIO']; ?></strong></span><br>
+        
+        <div class="w3-col s8 w3-bar" style="margin-top: 15px;">
+
+            <span>Hola <strong><?php echo $_SESSION['USUARIO']; ?></strong></span><br>
             <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i></a>
             <a href="#" class="w3-bar-item w3-button"><i class="fa fa-user"></i></a>
             <a href="#" class="w3-bar-item w3-button"><i class="fa fa-cog"></i></a>-->
@@ -71,6 +77,7 @@ $mysqli = conn();
         <a href="grafico.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Analisis Referencias </a>
         <a href="tabla.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Tabla marca cantidad</a>
         <a href="grafico_sata.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Grafico posicion SATA</a>
+        <a href="tabla_ponde.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Tabla promoción ponderado</a>
 
     </div>
 </nav>
@@ -171,7 +178,7 @@ $mysqli = conn();
     </div>
     <hr>
     <br>
-    <div class="w3-container w3-dark-grey w3-padding-32">
+    <!-- <div class="w3-container w3-dark-grey w3-padding-32">
         <div class="w3-row">
             <div class="w3-container w3-third">
                 <h5 class="w3-bottombar w3-border-green">Demographic</h5>
@@ -193,13 +200,13 @@ $mysqli = conn();
                 <p>Interests</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Footer -->
-    <footer class="w3-container w3-padding-16 w3-light-grey">
+    <!-- <footer class="w3-container w3-padding-16 w3-light-grey">
         <h4>FOOTER</h4>
         <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-    </footer>
+    </footer> -->
 
     <!-- End page content -->
 </div>
