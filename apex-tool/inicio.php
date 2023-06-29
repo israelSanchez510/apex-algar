@@ -19,6 +19,8 @@ include ("sesion.php");
     $mysqli=conn();
 ?>
 <body>
+    <a href="cerrar.php" class="w3-bar-item w3-button w3-padding" style="float:right">Cerrar Sesión </a>
+
     <div class="w3-row contenido fgris">
         <h1>Selecciona canal de comunicación</h1>
         <br>

@@ -19,8 +19,8 @@ $mysqli = conn();
     <link href="w3pro.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/x-icon" href="images/apex-fav.ico"> 
-
+    <link rel="icon" type="image/x-icon" href="images/apex-fav.ico">
+   
     <style>
         html,
         body,
@@ -46,8 +46,9 @@ $mysqli = conn();
 
     <!-- Top container -->
     <div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
-        <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu
-        </button>
+    <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i
+            class="fa fa-bars"></i>  Menu
+    </button>
         <!--<span class="w3-bar-item w3-right">Logo</span>-->
         <a href="cerrar.php" class="w3-bar-item w3-button w3-padding" style="float:right">Cerrar Sesión </a>
 
@@ -75,14 +76,15 @@ $mysqli = conn();
             <h5>Grafico</h5>
         </div>
         <div class="w3-bar-block">
-            <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black" onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Cerrar Menu</a>
-            <a href="dashboard.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-users fa-fw"></i>  Tabla Dif</a>
-            <a href="grafico.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-users fa-fw"></i>  Analisis Referencias </a>
-            <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Tabla marca cantidad</a>
-            <a href="grafico_sata.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Grafico posicion SATA</a>
-            <a href="tabla_ponde.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Tabla promoción ponderado</a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-16 w3-hide-large w3-dark-grey w3-hover-black"
+           onclick="w3_close()" title="close menu"><i class="fa fa-remove fa-fw"></i>  Cerrar Menu</a>
+        <a href="dashboard.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-users fa-fw"></i>  Tabla Dif</a>
+        <a href="grafico.php" class="w3-bar-item w3-button w3-padding "><i class="fa fa-users fa-fw"></i>  Analisis Referencias </a>
+        <a href="#" class="w3-bar-item w3-button w3-padding w3-blue"><i class="fa fa-users fa-fw"></i>  Tabla marca cantidad</a>
+        <a href="grafico_sata.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Grafico posicion SATA</a>
+        <a href="tabla_ponde.php" class="w3-bar-item w3-button w3-padding"><i class="fa fa-users fa-fw"></i>  Tabla promoción ponderado</a>
 
-        </div>
+    </div>
     </nav>
 
 

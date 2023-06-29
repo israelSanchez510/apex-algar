@@ -43,6 +43,7 @@ if (isset($_SESSION['sflag'])) {
                     <p>Extensión</p>
                     <select name="ext" class="w3-input" required>
                         <option></option>
+                        <option value="9002">9002</option>
                         <option value="9003">9003</option>
                         <option value="9004">9004</option>
                         <option value="9005">9005</option>
